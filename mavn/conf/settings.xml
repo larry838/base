@@ -146,22 +146,25 @@ under the License.
 <mirrors>
 
 <mirror>
-	<id>tbmirror</id>
-	<mirrorOf>central</mirrorOf>
+	<id>wshsof</id>
+	<mirrorOf>*</mirrorOf>
 	<url>http://mvn.wshsoft.com/nexus/content/groups/public/</url>
 </mirror>
 
 <mirror>
-	<id>tbmirror-snapshots</id>
-	<mirrorOf>snapshots</mirrorOf>
-	<url>http://mvn.wshsoft.com/nexus/content/groups/public/</url>
-</mirror>
-<mirror>
   <id>alimaven</id>
+  <mirrorOf>central</mirrorOf>
   <name>aliyun maven</name>
   <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-  <mirrorOf>central</mirrorOf>
 </mirror>
+
+<mirror>
+      <id>greencloud</id>
+      <mirrorOf>*</mirrorOf>
+      <name>greencloud nexus</name>
+      <url>http://183.129.215.114:8801/nexus/content/groups/public/</url>
+    </mirror>
+<mirror>
 
 <mirror>
   <id>oss</id>
